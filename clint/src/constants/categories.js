@@ -1,0 +1,45 @@
+/**
+ * Centralized Medical Categories Constant
+ * This array is the single source of truth for all medical product categories.
+ * It strictly matches the frontend routes and prevents typos/mismatches during data entry.
+ */
+export const MEDICAL_CATEGORIES = [
+  "Diagnostic Equipments",
+  "Scrubs & Linens",
+  "Anaesthesia",
+  "Medical Apparel",
+  "Autoclave",
+  "Cold Chain",
+  "Dental Instruments",
+  "Hospital Furniture",
+  "Gynaecology",
+  "Scales & Height",
+  "Holloware",
+  "Infant Care",
+  "Lab Coat",
+  "Lab Equipments",
+  "Laparoscopy",
+  "Miscellaneous",
+  "OT Equipment",
+  "Orthopedic Instruments",
+  "Physiotherapy",
+  "Lab Plasticware",
+  "Lab Reagents",
+  "Rubber Products",
+  "Suction Machines",
+  "Surgical Instruments",
+  "Waste Management",
+  "X-Ray Supplies",
+  "Health & Yoga",
+  "Medical Disposable",
+  "Rehab Products",
+  "Stethoscopes",
+  "Laryngoscopes",
+  "BP Monitors",
+  "Medical Reflex Hammers",
+  "ECG Machines",
+  "Pen Flashlight",
+  "Fetal Doppler",
+  "Patient Monitor",
+  "Pulse Oximeter"
+].sort(); // Sort alphabetically for easier navigation
